@@ -1,0 +1,53 @@
+<?php
+
+# ls-sftp-access
+$obj = new stdClass();
+$obj->url="";
+$obj->created_at="2023-03-14 16:03 UTC";
+$obj->updated_at="2023-04-13 09:51 UTC";
+$obj->ai_compatible=false;
+$obj->ai_only=false;
+$obj->revision="0d949bf5cabac4bf130ea7b67cd81a32"; # md5($obj->updated_at);
+$obj->build="2023-04-14 09:51 UTC";
+$obj->uuid="58268850-ddaf-4f29-9794-f289820938f2"; #random from https://www.uuidgenerator.net/version4
+$obj->code="ls-sftp-access";
+$obj->name="SFTP Access";
+$obj->description="SFTP Access extension will allow you to enable SFTP access for additional FTP users";
+$obj->version="1.0";
+$obj->release="76";
+$obj->author=null;
+$obj->vendor="Layershift";
+$obj->example=false;
+$obj->featured=true;
+$obj->checksum="edf281bdb7c2653ea994ec26566ef188"; #md5sum ls-sftp-access-1.0-76.zip
+$obj->fake=false;
+$obj->download_url="https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/ls-sftp-access-1.0-76.zip";
+$obj->buy_url="";
+$obj->icon="https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/64x64.png";
+$obj->screenshots=array(
+                        (object)array(
+                            'thumbnail'=>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/1-320.png',
+                            'screenshot'=>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/1.png'
+                        ),
+                        (object)array(
+                            'thumbnail'=>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/2-320.png',
+                            'screenshot'=>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/2.png'
+                        ),
+                    );
+$obj->plesk_min_version="18.0.50";
+#$obj->plesk_max_version="";
+$obj->categories=array((object)array('code'=>'developer','title'=>'Web Developer'));
+#$obj->help_url="";
+#$obj->support_url="";
+$obj->rating=(object)array('average'=>0,'votes'=>0);
+$obj->icons=    (object)array(
+                    '160x160' =>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/160x160.png',
+                    '128x128' =>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/128x128.png',
+                    '64x64'   =>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/64x64.png',
+                    '32x32'   =>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/32x32.png',
+                    '16x16'   =>'https://plesk-extension-catalog.layershift.com/extensions/ls-sftp-access/16x16.png',
+                );
+#$obj->prices=array((object)array('netPrice'=>5,'vatPrice'=>1,'grossPrice'=>6,'currency'=>'GBP','billingPeriod'=>'1m','name'=>'SFTP Access','productId'=>123,'licensingType'=>'edition'))
+
+$lsExt[]=$obj;
+unset($obj);
