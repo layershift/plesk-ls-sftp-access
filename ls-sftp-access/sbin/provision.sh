@@ -56,6 +56,7 @@ Match Group sftpusers
     AllowAgentForwarding no
     AllowTcpForwarding no
     X11Forwarding no
+Match all
 ### ls-sftp-access configuration block end ###
 EOF
 

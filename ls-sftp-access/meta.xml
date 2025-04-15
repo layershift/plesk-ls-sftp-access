@@ -4,8 +4,9 @@
   <name>SFTP Access</name>
   <description>SFTP Access extension will allow you to enable SFTP access for additional FTP users</description>
   <version>1.0</version>
-  <release>76</release>
+  <release>77</release>
   <vendor>Layershift</vendor>
   <url>https://www.layershift.com</url>
   <plesk_min_version>18.0.50</plesk_min_version>
+  <os>unix</os>
 </module>
