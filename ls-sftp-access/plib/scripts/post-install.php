@@ -43,7 +43,7 @@ try {
     file_put_contents(pm_Context::getVarDir()."debug.log", 'done'."\n", FILE_APPEND);
 
 
-if ($isUpgrade==0) {
+
     file_put_contents(pm_Context::getVarDir()."debug.log", 'executing provision.sh ...'."\n", FILE_APPEND);
     // call provision script
     try {
@@ -53,7 +53,7 @@ if ($isUpgrade==0) {
         exit;
     }
     file_put_contents(pm_Context::getVarDir()."debug.log", 'done'."\n", FILE_APPEND);
-}
+
     
 
 exit(0);

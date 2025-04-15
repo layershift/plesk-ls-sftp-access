@@ -21,7 +21,7 @@ class IndexController extends pm_Controller_Action
         $this->view->tabs = $this->_getTabs();
 
         $out="<table>";
-        $out.="<tr><td>SFTP for additional FTP users.<br> Version: 1.0.77</td></tr>";
+        $out.="<tr><td>SFTP for additional FTP users.<br> Version: 1.0.78</td></tr>";
         $out.="</table>";
         $this->view->service_status=$out;
 
